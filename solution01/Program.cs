@@ -7,7 +7,7 @@ void ArrayThreeChar (string [] array)
 {
     foreach (string item in array)
     {
-        if (item.Length == 3)
+        if (item.Length <= 3)
         {
             Console.WriteLine (item);
         }
